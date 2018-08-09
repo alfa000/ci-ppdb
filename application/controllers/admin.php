@@ -23,4 +23,7 @@ class admin extends CI_Controller {
 		$this->load->view('admin/header');
 		$this->load->view('admin/index');
 	}
+	public function psb(){
+		$this->load->view('admin/v_datapsb');
+	}
 }
