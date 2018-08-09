@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class admin extends CI_Controller {
+class siswa extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,11 +20,6 @@ class admin extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/header');
-		$this->load->view('admin/index');
-	}
-	public function psb(){
-		$this->load->view('admin/header');
-		$this->load->view('admin/v_datapsb');
+		$this->load->view('siswa/v_loginsiswa.php');
 	}
 }
