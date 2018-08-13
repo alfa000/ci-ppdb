@@ -2530,6 +2530,9 @@ ul.author-social-profile li:hover .fa {
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
+.contact-form input[type="password"],
+.contact-form input[type="number"],
+.contact-form select,
 .contact-form textarea {
     width: 100%;
     padding: 12px 20px;
